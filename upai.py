@@ -27,7 +27,7 @@ def fillunivlist(ulist,html):
 
 def printlist(ulist,num):
     tplt = "{0:^10}\t{1:{3}^10}\t{2:^10}"
-    print(tplt.format("排名","学校名称","分数",chr(12288)))
+    print(tplt.format("排名","学校名称","地区",chr(12288)))
     for i in range(num):
         u = ulist[i]
         print(tplt.format(u[0], u[1], u[2], chr(12288)))
