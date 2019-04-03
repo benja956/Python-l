@@ -16,6 +16,6 @@ if ls2:
     print(ls2)
 for m in re.finditer(r"[1-9]\d{5}","BIT 100081,BIT 165081,BIT 101581"):
     if m:
-        print(m.group(0))
+        print(m)
 v = re.sub(r"[1-9]\d{5}","zipcood","BIT 100081,BIT 165081,BIT 101581")
 print(v)
